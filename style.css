@@ -50,6 +50,9 @@
     line-height: 1.25;
     margin-bottom: 5px;
     transition: font-size 0.25s ease;
+    color:#34474F;
+    text-transform: uppercase;
+    font-size: 18px;
   }
   
   h1 {
@@ -111,6 +114,8 @@
     font-size: 14px;
     line-height: 1.25;
   }
+
+  
   
   /* 3. Structure Styles
   ======================================== */
@@ -293,6 +298,16 @@
     color: #FFFFFF;
     text-transform: uppercase;
   }
+
+  .stars-label {
+    font-style: italic;
+    font-weight: 700;
+    font-size: large;
+  }
+
+  #featured-section-header {
+    color: #ffffff;
+  }
   
   .section-header {
     margin-bottom: 20px;
@@ -337,6 +352,7 @@
   
   .movie-description-stars {
     margin: 15px 0px;
+    line-height: 30px;
   }
   
   .movie-description-button {
@@ -351,7 +367,19 @@
     padding: 10px;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: normal;
   }
+
+.movie-description-button {
+    background-color: #F1EB58;
+    border-radius: 10%;
+}
+
+.movie-description-button-secondary {
+    background-color: #F1EB58;
+    border-radius: 10%;
+    margin-top: 20px;
+}
   
   .review-header {
     text-align: center;
